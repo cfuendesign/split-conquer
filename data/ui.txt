@@ -4,3 +4,17 @@
 8888Y"  88    YP    88 8888Y"  888888    dP         YP    888888 88  Y8  YboodP 888888 88  Yb dP""""Yb 8bodP'
 
 © 2021 Juan Castillo, Omar Ladino & Santiago Porras.
+---
+Digite "-h" para ver todos los comandos disponibles.
+Para ver cómo utilizar un comando en específico, digite "[comando] -h"
+---
+Algoritmos
+Para ejecutar un algoritmo con ajustes opcionales, digite el comando de dicho algoritmo junto con la opción (ej. matrix -rec)
+
+    matrix: Inicia el algoritmo de multiplicación entre dos matrices de forma iterativa
+    Opciones/Parámetros del algoritmo
+        pD: dimensiones de la primera matriz. Al ser un parámetro, solo se debe poner el valor deseado.
+        sD: dimensiones de la segunda matriz. Al ser un parámetro, solo se debe poner el valor deseado.
+        -rec: Inicia el algoritmo de multiplicación entre dos matrices de forma recursiva (Divide y Vencerás)
+    ej. matrix 2,2 2,4 -rec
+    Nota: si el algoritmo es recursivo, las matrices deben ser cuadradas.
